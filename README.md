@@ -19,6 +19,8 @@ Microsoft Cognitive services のひとつ LUIS(Language Understanding Intelligen
 
 macOS と Linux の場合は [.NET Core](https://dotnet.github.io/) をインストールして ``dotnet`` コマンドが使えるようにしてくださいね。
 
+次に [Releases](https://github.com/amay077/LuisTrainer/releases) に添付されている ``LuisTrainer_vX.X.zip`` をダウンロードして展開してください。
+
 次のような感じでプログラム ``LuisTrainer.dll`` を実行します。渡すパラメータは 4つ です。
 
 ```
