@@ -3,7 +3,7 @@ LuisTrainer
 
 ## これはなに？
 
-Microsoft Cognitive services のひとつ LUIS(Language Understanding Intelligent Service) - [luis.ai](https://www.luis.ai/) に学習させるサンプルをバッチで送信するツールです。
+Microsoft Cognitive services のひとつ LUIS(Language Understanding Intelligent Service) - [luis.ai](https://www.luis.ai/) に、「サンプル文章」をバッチで連続登録するツールです。
 
 ## どこでうごかせる？
 
