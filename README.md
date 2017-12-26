@@ -34,7 +34,9 @@ dotnet LuisTrainer.dll "./csv/examples.csv" appid=516xxxxx-xxxx-xxxx-xxxx-xzxxxx
 4. ``versionid=LUISAppのバージョン`` - luis.ai アプリケーションのバージョンです。 ``０．１`` とか。
 
 ## サンプルデータCSV仕様
+,,Genre,Location,MoveTo,Search,
 
-|Title|Type|Description|
-|:---|:---|:---|
-|table|string|テーブルを表示したい|
+|Text|Intent|Status|Update_ts|EntityName1|EntityName2|EntityName…|
+|:---|:---|:---|:---|:---|:---|:---|
+|Text|Intent|Status|Update_ts|EntityName1|EntityName2|EntityName…|
+
