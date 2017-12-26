@@ -60,7 +60,7 @@ dotnet LuisTrainer.dll "./csv/examples.csv" appid=516xxxxx-xxxx-xxxx-xxxx-xzxxxx
 
 この CSV を渡してプログラムを実行すると、 luis.ai の [REST API - examples - Add label](https://westus.dev.cognitive.microsoft.com/docs/services/5890b47c39e2bb17b84a55ff/operations/5890b47c39e2bb052c5b9c08) を実行して、それぞれの例文と Entity をラベル付けします。
 
-学習自体やAPIのPublishは行わないので、Train コマンドは luis.ai の Web画面や REST API から行ってください。
+学習自体やAPIのPublishは行わないので、Train コマンドは luis.ai の Web画面や REST API から行ってください。
 
 プログラムの処理が終わると、結果を ``path/to/examples.csv.out`` に出力します。出力されたファイルには、``Status`` が ``1`` に、 ``Update_ts`` には処理日時が格納されます。
 
