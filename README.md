@@ -44,7 +44,7 @@ dotnet LuisTrainer.dll "./csv/examples.csv" appid=516xxxxx-xxxx-xxxx-xxxx-xzxxxx
 ``Text``, ``Intent``, ``Status``, ``Update_ts`` は必須列です。
 それ以外の列は、LUISのEntity名に対応させた列を任意の数定義できます。
 
-例えば、 LUIS で「今日の東京の天気を知りたい」という文章から GetWeather という Intent を得たいとき、 luis.ai には、次のような Intent と Entity を定義することになると思います。
+例えば、 LUIS で「今日の東京の天気を知りたい」という文章から GetWeather という Intent を得たいとき、 luis.ai には、次のような Intent と Entity を定義することになると思います。
 
 * Intent - GetWeather : 天気を得るという「意図」
 * Entity - Day : いつ？（例: 今日、明日、12月23日）
