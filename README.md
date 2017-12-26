@@ -64,4 +64,8 @@ dotnet LuisTrainer.dll "./csv/examples.csv" appid=516xxxxx-xxxx-xxxx-xxxx-xzxxxx
 
 プログラムの処理が終わると、結果を ``path/to/examples.csv.out`` に出力します。出力されたファイルには、``Status`` が ``1`` に、 ``Update_ts`` には処理日時が格納されます。
 
+## なんでつくった？
+
+LUIS の Web画面 − Review endpoint utterances で、未学習の例文を評価して追加できるんですけど、この画面では単語の区切りが自動になってしまって、任意の単語を指定できないのです。例えば「東京都の明日の天気を知りたい」という文章で「東京都」を Entity として登録したいのに画面では「東京」としか登録できません。なんだか REST API を叩くしか方法が見つからなかったので作りました。
+
 end of contents
